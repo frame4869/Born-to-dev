@@ -10,10 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /*int x = 10;
+            int x = 10;
             int y = 20;
-            int z = x + y;*/
-            Console.WriteLine("HELLO FRAME" + Console.ReadLine());
+            int z = x + y;
+            float money = 100.50f;
+            double wallet = 200.50;
+            bool admin = true; 
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
