@@ -10,12 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
-            Console.WriteLine("X + Y = " + (x + y));
-            Console.WriteLine("X - Y = " + (x - y));
-            Console.WriteLine("X * Y = " + (x * y));
-            Console.WriteLine("X / Y = " + (x / y));
+            if(10==10)
+            {
+                Console.WriteLine("true");
+            }
+            Console.WriteLine("Frame");
             Console.ReadLine();
         }
     }
