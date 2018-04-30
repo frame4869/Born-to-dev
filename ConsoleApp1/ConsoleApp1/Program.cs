@@ -10,13 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            int y = 20;
-            int z = x + y;
-            float money = 100.50f;
-            double wallet = 200.50;
-            bool admin = true; 
-            Console.WriteLine();
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("X + Y = " + (x + y));
+            Console.WriteLine("X - Y = " + (x - y));
+            Console.WriteLine("X * Y = " + (x * y));
+            Console.WriteLine("X / Y = " + (x / y));
             Console.ReadLine();
         }
     }
