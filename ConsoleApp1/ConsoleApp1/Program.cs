@@ -10,11 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            if(10==10)
+            int score = int.Parse(Console.ReadLine()) ;
+            if( score >=80 )
             {
-                Console.WriteLine("true");
+                Console.WriteLine("A"); 
             }
-            Console.WriteLine("Frame");
+            else
+            {
+                if( score >= 70)
+                    Console.WriteLine("B");
+                if( score >= 60 && score <=69)
+                    Console.WriteLine("C");
+                if( score >= 50 && score <= 59)
+                    Console.WriteLine("D");
+                else
+                {
+                    Console.WriteLine("F");
+                }
+            }            
+
             Console.ReadLine();
         }
     }
