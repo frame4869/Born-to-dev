@@ -10,9 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] ages = new int [10];
-            ages[0] = 10;
-            ages[1] = 20;
+            string[] Country = {"Thai","Laos","Singapore"};
+            
         }
     }
 }
