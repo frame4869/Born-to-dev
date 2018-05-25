@@ -10,11 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 13; i++)
-            {
-                Console.WriteLine("5 * " + i  + " = " + (5*i));
-            }
-                Console.ReadLine();
+            sayHelloWorld();
+            Console.ReadLine();
+        }
+        private static void sayHelloWorld()
+        {
+            Console.WriteLine("Hello World");
         }
     }
 }
