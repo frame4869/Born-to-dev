@@ -10,20 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(calculate());
-            sayHelloWorld();
-            Console.ReadLine();
-        }
-        private static void sayHelloWorld()
-        {
-            Console.WriteLine("Hello ");
-        }
-        private static int calculate()
-        {
-            int a = 10;
-            int b = 20;
-            int sum = a * b;
-            return sum;
+            int[] ages = new int [10];
+            ages[0] = 10;
+            ages[1] = 20;
         }
     }
 }
