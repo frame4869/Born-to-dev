@@ -10,17 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string[] country = {"Thailand ","Laos","Singapore","Cambodia","Indonesia"};
-            for (int i = 0;  i < 3;  i++) 
-            {
-                Console.WriteLine(country[i]);
-            }
-            Console.WriteLine("-------");
-            foreach (string data in country)
-            {
-                Console.WriteLine(data);
-            }
-            Console.ReadLine();
+            string[,] customers = { { "Hello", "world" },{"s","-" } };
+            string[][] users = new string [ 5 ][];
+            users[0] = new string[3];
+            users[1] = new string[4];
         }
     }
 }
