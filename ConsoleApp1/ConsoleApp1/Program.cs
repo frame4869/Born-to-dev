@@ -10,18 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string[] Country = {"Name","LastName","Salary"};
-            Console.WriteLine("Enter your name");
-            Country[0] = Console.ReadLine();
-            Console.WriteLine("Enter your lastname");
-            Country[1] = Console.ReadLine();
-            Console.WriteLine("Enter your Sarary");
-            Country[2] = Console.ReadLine();
-            Console.WriteLine(Country[0]);
-            Console.WriteLine(Country[1]);
-            Console.WriteLine(Country[2]);
+            string[] country = {"Thailand ","Laos","Singapore"};
+            for (int i = 0;  i < 3;  i++) 
+            {
+                Console.WriteLine(country[i]);
+            }
             Console.ReadLine();
-            
         }
     }
 }
